@@ -32,7 +32,7 @@ public class Prefix extends ConsoleProgram{
 		
 		ArrayList<String> list = new ArrayList<String>();
 		for(int i = 0; i < array.length; i++) {
-			if (array[i].substring(0,numChar + 1).equals(prefix))
+			if (array[i].substring(0,numChar).equals(prefix))
 				list.add(array[i]);
 		}
 		
