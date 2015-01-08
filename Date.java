@@ -25,7 +25,7 @@ public class Date extends ConsoleProgram {
 		int daysTemporary = hoursTemporary / 24;
 		int days = daysTemporary % 24;
 		*/
-		println(days + " " + hours  + " " + minutes + " " + seconds);
+		println(days + " days " + hours  + " hours " + minutes + " minutes " + seconds + " seconds.");
 		
 	}
 
