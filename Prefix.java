@@ -1,7 +1,7 @@
 /*
  * File: Prefix.java
  * ---------------------
- * Returns an array with all the strings that begin with the given prefix within another
+ * Returns an array with all the strings that don't begin with the given prefix within another
  * given array.
  */
 
