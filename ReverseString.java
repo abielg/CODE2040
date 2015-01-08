@@ -8,7 +8,7 @@
 
 import acm.program.*;
 
-public class BlankClass extends ConsoleProgram {
+public class ReverseString extends ConsoleProgram {
 	public void run() {
 		String word = readLine("Enter the string you want reversed: ");
 		println("Here is the reversed string: " + reverseString(word));
