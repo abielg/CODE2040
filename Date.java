@@ -12,6 +12,11 @@ public class Date extends ConsoleProgram {
 	public void run(){
 		int interval = 64204600;
 		int seconds = interval % 60;
+		int minutes = (interval / 60) % 60;
+		int hours = ((interval / 60) / 60) % 24;
+		int days = (((interval / 60) / 60)) / 24;
+		
+		/*
 		int minutesTemporary = interval / 60;
 		
 		int minutes = minutesTemporary % 60;
@@ -19,7 +24,7 @@ public class Date extends ConsoleProgram {
 		int hours = hoursTemporary % 24;
 		int daysTemporary = hoursTemporary / 24;
 		int days = daysTemporary % 24;
-		
+		*/
 		println(days + " " + hours  + " " + minutes + " " + seconds);
 		
 	}
