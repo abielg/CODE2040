@@ -16,7 +16,7 @@ public class NeedleHaysack extends ConsoleProgram {
 		
 		for (int i = 0; i < haystack.length; i++) {
 			println(haystack[i]);
-		}
+		}	
 		String needle = readLine("Enter needle: ");
 		println("The index of the needle int he haystack is: " + getNeedleIndex(needle, haystack));
 	}
